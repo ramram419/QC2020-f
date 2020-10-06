@@ -1,0 +1,33 @@
+// OPtical(alpha value)
+$alpha: 0.3;
+
+// default color
+$water:   rgb(0, 123, 255) !default;
+$grape: rgb(110, 65, 193) !default;
+$light-grape: rgb(116,104,245) !default;
+$apple:    rgb(221, 53, 69) !default;
+$banana: rgb(255, 193, 6) !default;
+$leaf:  rgb(40, 167, 69) !default;
+
+// gray
+$gray:   rgb(108, 117, 125) !default;
+$dark:   rgb(52, 58, 64) !default;
+
+$white:  rgb(255, 255, 255) !default;
+$black:  rgb(0, 0, 0) !default;
+
+// background color
+$bg-water:   rgba($water, $alpha) !default;
+$bg-grape: rgba($grape, $alpha) !default;
+$bg-apple:    rgba($apple, $alpha) !default;
+$bg-banana: rgba($banana, $alpha) !default;
+$bg-leaf:  rgba($leaf, $alpha) !default;
+
+// default color array
+$d-color: (
+  'water': $water,
+  'grape': $grape,
+  'apple': $apple,
+  'banana': $banana,
+  'leaf': $leaf
+)
